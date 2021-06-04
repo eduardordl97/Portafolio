@@ -7,14 +7,14 @@
 }
 /*---------------COLORES----------------*/
 :root{
-    --first-color: #4070F4;
-    --second-color:#0E2431;
+    --first-color: #ff3a5e;
+    --second-color:#420a0a;
 
 }
 /*---------------FUENTE Y TIPOGRAFIA----------------*/
 :root{
     --body-font: 'Roboto', sans-serif;
-    --big-font-size:2rem;
+    --big-font-size:3rem;
     --h2-font-size:1.25rem;
     --normal-font-size: 0.938rem;
 }
@@ -169,6 +169,8 @@ img{
 }
 .nav_logo{
     color: var(--second-color);
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .nav_toggle{
     color: var(--second-color);
@@ -190,6 +192,55 @@ img{
 .show{
     right: 0;
 }
-/*---------------Z INDEX----------------*/
+/*---------------HOME---------------*/
+.home{
+    height: calc(100vh - 7rem);
+    row-gap: 1rem;
+}
+.home_data{
+    align-self: center;
+}
+.home_title{
+    font-size: 3rem;
+    margin-bottom: var(--mb-5);
+}
+.home_title-color{
+    color: var(--first-color);
+}
+.home_social{
+    display:flex;
+    flex-direction: column;
+}
+.home_social-icon{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 2rem;
+    color: var(--second-color);
+}
+.home_social-icon:hover{
+    color: var(--first-color)
+}
+.home_img{
+    position: absolute;
+    right: 0;
+    bottom: 37px;
+    width: 360px;
+
+}
+/*botones*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-m);
+    border-radius: .5rem;
+
+}
+.button:hover{
+    box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+    background-color:  #f03658;
+}
+
 /*---------------Z INDEX----------------*/
 /*---------------Z INDEX----------------*/

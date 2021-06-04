@@ -80,7 +80,7 @@ img{
     font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-top: 0rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     text-align: center;
 
 }

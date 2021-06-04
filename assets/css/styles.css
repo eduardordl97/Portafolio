@@ -223,8 +223,8 @@ img{
 .home_img{
     position: absolute;
     right: 0;
-    bottom: 37px;
-    width: 360px;
+    bottom: 0;
+    width: 300px;
 
 }
 /*botones*/
